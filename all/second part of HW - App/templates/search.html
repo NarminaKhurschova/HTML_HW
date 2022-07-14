@@ -1,4 +1,5 @@
 <h2>Найдено кандидатов: {{count}}</h2>
+<!-- Форма списка кандидатов, найденных по имени -->
 {% for candidate in candidates %}
     <p><a href="/candidate/{{candidate.id}}">{{candidate.name}}</a></p>
 {% endfor %}
